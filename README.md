@@ -39,20 +39,6 @@ A minimalist and elegant browser startpage that transforms your new tab into a s
 - **Dev**: github, stack, dev
 - **Home**: whatsapp, mail
 
-## 📸 Screenshots
-
-<details>
-<summary>Click to view more screenshots</summary>
-
-### Command Mode
-![Command Mode](command-mode.png)
-
-### Categories View
-![Categories](categories.png)
-
-### Mobile View
-![Mobile](mobile.png)
-
 </details>
 
 ## 🛠️ Installation
@@ -85,5 +71,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Made with ❤️ by [vito-ysl]
 
 ## 🔗 Share & Connect
-- [Share on Twitter](https://twitter.com/intent/tweet?text=Check%20out%20Ada's%20Terminal%20-%20A%20minimal%20startpage%20for%20your%20browser!%20https://github.com/vito-ysl/adas-terminal)
-- [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/vito-ysl/adas-terminal)
+- [Share on Twitter](https://twitter.com/vito_ysl/)
+- [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/vito-ysl/)
