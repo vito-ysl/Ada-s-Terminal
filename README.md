@@ -11,7 +11,7 @@ A minimalist and elegant browser startpage that transforms your new tab into a s
 </div>
 
 <div align="center">
-  <img src="img.png" alt="Ada's Terminal Preview" width="800"/>
+  <img src="assets/img.png" alt="Ada's Terminal Preview" width="800"/>
 </div>
 
 ## 🌟 Features
