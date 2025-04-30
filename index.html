@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ada's Terminal</title>
+    <!-- Font Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <!-- Main Panel -->
+        <div class="panel">
+            <!-- Left Image Section -->
+            <div class="image-section">
+                <img src="comp.jpeg" alt="Anime character relaxing">
+            </div>
+
+            <!-- Content Section -->
+            <div class="content-section">
+                <h1>Ada's Terminal</h1>
+
+                <!-- GitHub Profile Button -->
+                <a href="https://github.com/YOUR_USERNAME" class="github-button" target="_blank" rel="noopener noreferrer">
+                    <img src="git.jpg" alt="GitHub" class="github-icon">
+                </a>
+
+                <!-- Search Bar -->
+                <div class="search-bar">
+                    <span class="search-icon">⌕</span>
+                    <input type="text" placeholder="search..." id="commandInput">
+                    <div class="autocomplete-dropdown" id="autocomplete"></div>
+                </div>
+
+                <!-- Links Grid -->
+                <div class="links-grid">
+                    <!-- Chill Section -->
+                    <div class="links-column">
+                        <h2>/Chill</h2>
+                        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">➤ ~/youtube</a>
+                        <a href="https://netflix.com" target="_blank" rel="noopener noreferrer">➤ ~/netflix</a>
+                        <a href="https://spotify.com" target="_blank" rel="noopener noreferrer">➤ ~/spotify</a>
+                    </div>
+
+                    <!-- Design Section -->
+                    <div class="links-column">
+                        <h2>/Design</h2>
+                        <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer">➤ ~/dribbble</a>
+                        <a href="https://behance.net" target="_blank" rel="noopener noreferrer">➤ ~/behance</a>
+                        <a href="https://figma.com" target="_blank" rel="noopener noreferrer">➤ ~/figma</a>
+                    </div>
+
+                    <!-- Dev Section -->
+                    <div class="links-column">
+                        <h2>/Dev</h2>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">➤ ~/github</a>
+                        <a href="https://stackoverflow.com" target="_blank" rel="noopener noreferrer">➤ ~/stack</a>
+                        <a href="https://dev.to" target="_blank" rel="noopener noreferrer">➤ ~/dev.to</a>
+                    </div>
+
+                    <!-- Home Section -->
+                    <div class="links-column">
+                        <h2>/Home</h2>
+                        <a href="https://web.whatsapp.com" target="_blank" rel="noopener noreferrer">➤ ~/whatsapp</a>
+                        <a href="https://mail.google.com" target="_blank" rel="noopener noreferrer">➤ ~/mail</a>
+                        <a href="https://calendar.google.com" target="_blank" rel="noopener noreferrer">➤ ~/calendar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
