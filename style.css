@@ -40,12 +40,16 @@ body {
 }
 
 .image-section {
-    flex: 0 0 33.333%;
+    flex: 0 0 25%; /* Reduced from 33.333% to 25% */
     padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .image-section img {
     width: 100%;
+    max-width: 200px; /* Added max-width to limit image size */
     height: auto;
     border-radius: 10px;
     object-fit: cover;
